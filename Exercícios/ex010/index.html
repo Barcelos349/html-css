@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Links externos</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar minha Intranet por <a href="https://intranet.policiamilitar.mg.gov.br/autenticacaosso/login.jsf;jsessionid=pcH2I0-jZO0BtODes5_VPbIijfyHFX16V4W0rxB5.node2" target="_blank" rel="external"><em>aqui</em></a></p> <!--href é referência de hipertexto. o A é de âncora, hiperlink // _Blank (Outra página,e _self, para a mesma página)-->
+    <p>Você pode também ver meu link no <a href="https://www.youtube.com/premium" target="_blank" rel="external"> <strong>Youtube</strong></a></p> <!--Target significa alvo. Rel é relativo a fonte externa. Coloca dessa forma para abrir o link em outra aba e deixar a anterior aberta, no caso de sites externos. Se for dentro do seu site, não abra em nova aba-->
+    <h1>Usando Links internos</h2>
+    <p>Está é a minha primeira página, se quiser, conheça minha <a href="pag002.html" rel="next">segunda página</a></p> <!--Para link interno, só colocar o cursor dentro das aspas e digitar ctrl+espaço e escolher a página, arquivo. Estando na mesma pasta do arquivo-->
+    <p>Você também pode acessar minha página de <a href="noticias/pag003.html" rel="next">notícias</a></p>
+</body> <!--Next para informar que o link direciona para a próxima página-->
+<h1>Links para download</h1>
+<ul>
+    <li><a href="Livro/PA p download.pdf" download="PA p download.pdf" type="application/pdf">Baixar o Livro em PDF</a></li><!--às vezes, nem colocando o download, type, consegue baixar o arquivo, dependendo do navegador. Fica abrindo no próprio navegador. o Zip já baixou-->
+    <li><a href="Livro/PA p download.rar">Baixar o livro em ZIP</a></li>
+</ul>
+</html>

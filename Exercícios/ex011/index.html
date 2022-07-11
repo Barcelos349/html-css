@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivios diferentes ou simplesmente aumente e diminua o tamanho seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto Grande">
+    </picture> <!--Coloca máximo ao invés de mínimo. O que vem direto. Escolha source media type. A ORDEM IMPORTA-->
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a colocar áudios para reproduzir no seu site</p>
+    <audio src="midias/somtrem.mp3" controls autoplay></audio>
+    <h2>Pode também ser de outra forma</h2>
+   <p><audio preload="metadata" autoplay constrols loop> <!--Auto fica pesado, e nada também é ruim-->
+        <source src="midias/somtrem.mp3" type="audio.mpeg"></p>
+    </audio></p>
+</body>
+</html>

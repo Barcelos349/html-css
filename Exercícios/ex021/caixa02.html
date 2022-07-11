@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:rgb(204, 199, 199);
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 1px 9px 0px;
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;           
+        }
+
+        article {
+            background-color:rgb(196, 151, 238)
+        }
+
+        article > aside {
+            background-color:rgb(171, 105, 233);            
+        }
+
+        nav {
+            background-color: rgb(104, 103, 103);
+            padding: 3px; 
+            box-shadow: 4px 3px 7px 1px rgba(0, 0, 0, 0.534);
+        }
+
+        nav > a {
+            font-weight: bold;
+            color:white;
+            margin-right: 30px;        
+            text-decoration: none;    
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1> Meu site</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero explicabo, vel nobis fugit alias labore eveniet. Libero explicabo magnam omnis accusamus asperiores praesentium voluptatibus. Expedita sunt tenetur dolorum totam nobis.</p>
+                <aside>
+                    <p>Artigo escrito por <strong>Anderson Barcelos</strong></p>
+                </aside>
+                </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Barcelos</p>
+    </footer>
+
+</body>
+</html>
