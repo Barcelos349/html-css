@@ -8,16 +8,25 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
-            background-position: center top;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+
+             Shorthand background
+            color > image > position > repeat > [size] > attachment
+            
+            O size não funciona na shorthand, coloca tudo menos o size, e coloca o size cover embaixo, normal. Está na regra, mas não rodando. */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -32,6 +41,12 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore beatae tempore quis facere ratione voluptatum ducimus, dolorem perferendis vel, autem, iure doloribus rerum dolorum maiores cum animi placeat voluptate?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cumque cum et aperiam incidunt voluptatem exercitationem harum, minima, voluptas nobis nostrum dignissimos perferendis assumenda eveniet. Quam accusamus quia asperiores aspernatur!Lorem</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ab cumque veniam eos expedita, optio facilis velit laudantium quia ipsum sed exercitationem quidem pariatur ea enim, saepe quibusdam quis reprehenderit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloremque optio harum amet id fugit laboriosam, repellendus, quae, dicta voluptas assumenda commodi. Sequi molestiae assumenda possimus optio molestias dolores</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium nesciunt mollitia pariatur, libero debitis enim magnam rem alias dolores cum necessitatibus, optio quaerat. Hic aliquid officiis natus aperiam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, recusandae? Perferendis autem reprehenderit et? Consequatur adipisci eaque vel ea optio similique voluptas numquam nesciunt, ratione harum, minima fugiat, ad reprehenderit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque repellendus ratione exercitationem, impedit reprehenderit ipsa cumque quaerat sunt vero neque. Illo reprehenderit fugit magni fugiat consequatur corrupti voluptas obcaecati dolores.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore beatae tempore quis facere ratione voluptatum ducimus, dolorem perferendis vel, autem, iure doloribus rerum dolorum maiores cum animi placeat voluptate?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cumque cum et aperiam incidunt voluptatem exercitationem harum, minima, voluptas nobis nostrum dignissimos perferendis assumenda eveniet. Quam accusamus quia asperiores aspernatur!Lorem</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ab cumque veniam eos expedita, optio facilis velit laudantium quia ipsum sed exercitationem quidem pariatur ea enim, saepe quibusdam quis reprehenderit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloremque optio harum amet id fugit laboriosam, repellendus, quae, dicta voluptas assumenda commodi. Sequi molestiae assumenda possimus optio molestias dolores</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium nesciunt mollitia pariatur, libero debitis enim magnam rem alias dolores cum necessitatibus, optio quaerat. Hic aliquid officiis natus aperiam.</p>
+    
     </main>
 </body>
 </html>
